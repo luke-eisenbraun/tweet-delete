@@ -1,4 +1,4 @@
-##Delete your tweets
+## Delete your tweets
 
 Original script by [Mathew Inkson](http://www.mathewinkson.com/2015/03/delete-old-tweets-selectively-using-python-and-tweepy)
 
@@ -10,7 +10,7 @@ won't clear your timeline all at once (at least not as-is). However, if you sche
 it to run regularly, it will eventually work it's way back through your timeline,
 assuming you schedule it to run more frequently than you post 200 tweets.
 
-##Requirements
+## Requirements
 
 In order to use this script, you need:
 
@@ -20,7 +20,7 @@ In order to use this script, you need:
  *  A way to schedule the script (eg. cron)
 
 
-##Setup
+## Setup
 Get Twitter credentials:
 
   * Login to Twitter.
@@ -35,7 +35,7 @@ Get Twitter credentials:
   * Copy the `Access Token` and `Access Token Secret` strings into
     the `config.py` file.
 
-##Usage
+## Usage
 Install Python libs:
 
     pip install -r requirements.txt
